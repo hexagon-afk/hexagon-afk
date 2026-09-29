@@ -1,124 +1,32 @@
-<div align="center">
+# Team Hexagon 🏛️
 
-# 🏛️ Team Hexagon
-### **Sovereign AI Systems • Public Procurement Intelligence • Smart Automation**
-**Smart India Hackathon (SIH) 2026 | Team ID: SIH26009**
+**Smart India Hackathon 2026 | Team ID: SIH26009**  
+*Building sovereign, deterministic AI platforms for digital governance and public procurement.*
 
-<br/>
-
-[![SIH 2026](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-orange?style=for-the-badge&logo=target)](https://sih.gov.in)
-[![Problem ID](https://img.shields.io/badge/Problem%20ID-SIH26100-blue?style=for-the-badge)](https://github.com/hexagon-afk/probable-octo-memory)
-[![Ministry](https://img.shields.io/badge/Ministry-Commerce%20%26%20Industry-darkgreen?style=for-the-badge)](https://commerce.gov.in)
-[![GeM Platform](https://img.shields.io/badge/Target-Government%20e--Marketplace%20(GeM)-ff69b4?style=for-the-badge)](https://gem.gov.in)
-
-<br/>
-
-```
-  ██   ██ ███████ ██   ██  █████   ██████   ██████  ███    ██ 
-  ██   ██ ██       ██ ██  ██   ██ ██       ██    ██ ████   ██ 
-  ███████ █████     ███   ███████ ██   ███ ██    ██ ██ ██  ██ 
-  ██   ██ ██       ██ ██  ██   ██ ██    ██ ██    ██ ██  ██ ██ 
-  ██   ██ ███████ ██   ██ ██   ██  ██████   ██████  ██   ████ 
-```
-
-<p align="center">
-  <b>Building zero-hallucination, air-gapped sovereign AI platforms designed for Indian digital governance.</b>
-</p>
-
-[🌐 Live Prototype](https://bidlens-ai.vercel.app) • [⚡ Backend API](https://bidlens-ai.onrender.com) • [📖 Interactive Docs](https://bidlens-ai.onrender.com/docs) • [📦 Submission Repo](https://github.com/hexagon-afk/probable-octo-memory)
-
-</div>
-
-<br/>
+📍 India • [Live Demo](https://bidlens-ai.vercel.app) • [API Docs](https://bidlens-ai.onrender.com/docs) • [GitHub](https://github.com/hexagon-afk)
 
 ---
 
-### 🏆 Featured Hackathon Project: BidLens AI
+### 🏆 Featured Project: BidLens AI
 
-> **Repository:** [`hexagon-afk/probable-octo-memory`](https://github.com/hexagon-afk/probable-octo-memory)  
-> **Problem Statement (SIH26100):** *AI-Powered Integrated Bid Compliance Verification Platform for Government e-Marketplace (GeM)*
-
-BidLens AI is an autonomous, explainable procurement co-pilot built to eliminate human fatigue, prevent wrongful MSME disqualifications, and detect subtle cross-document fraud across multi-thousand page GeM tender packages.
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        BIDLENS AI CORE WORKFLOW                        │
-└───────────────────────────────────┬────────────────────────────────────┘
-                                    │
-    ┌───────────────────────────────┼───────────────────────────────┐
-    ▼                               ▼                               ▼
-[ Multi-Modal OCR ]     [ GFR 2017 Rule Engine ]     [ Govt Registry Sync ]
-Digital & Scanned PDFs    100% Deterministic Code      GSTN, MCA21 & Udyam
-    │                               │                               │
-    └───────────────────────────────┼───────────────────────────────┘
-                                    │
-                                    ▼
-                [ Cross-Document Contradiction Engine ]
-                Pinpoints PAN, GSTIN & Turnover Mismatches
-                                    │
-                                    ▼
-                [ NetworkX Clause-to-Evidence Graph ]
-                Transparent, Auditable Regulatory Tracing
-                                    │
-                                    ▼
-                [ Explainable Rejection-Risk Scorer ]
-                Grounded Risk Report with Exact Page Citations
-                                    │
-                                    ▼
-                [ Officer Review & Immutable Ledger ]
-                Cryptographic SHA-256 Trail & Signed PDF Dossier
-```
-
-#### 🌟 Key Breakthroughs
-- 🛡️ **100% Deterministic Rule Engine:** Executes GFR 2017 (Rules 149, 160, 170) and MSME 2012 prior turnover waivers without generative hallucinations.
-- 🔍 **Cross-Document Discrepancy Detection:** Identifies subtle mismatches in PAN, GSTIN, turnover, and OEM authorization letters across multiple attachments.
-- 🕸️ **Clause-to-Evidence Knowledge Graph:** Visualizes exact statutory relationships from legal clause to extracted evidence page.
-- 🔒 **100% Air-Gapped Sovereign Readiness:** Zero outbound internet telemetry; compatible with NIC MeghRaj cloud and CERT-In security guidelines.
-
-<br/>
+- **[BidLens AI](https://github.com/hexagon-afk/probable-octo-memory)** • [Live Prototype](https://bidlens-ai.vercel.app) • [API Docs](https://bidlens-ai.onrender.com/docs)  
+  *AI-Powered GeM Bid Compliance Verification Platform (SIH 2026 | Problem ID: SIH26100)*  
+  Autonomous verification engine for GeM tenders. Enforces deterministic GFR 2017 rules (149, 160, 170), flags cross-document discrepancies (PAN, GSTIN, Turnover), and validates MSME statutory waivers with zero LLM hallucination and 100% air-gapped sovereign readiness.
 
 ---
 
-### 🛠️ Core Technology Stack
+### 🛠️ Tech Stack
 
-<div align="center">
-
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **AI & Document Processing** | `PyMuPDF` • `RapidOCR` • `spaCy NLP` • `python-docx` • `openpyxl` |
-| **Deterministic Rules & Graphs** | `Python 3.11` • `NetworkX` • `Pydantic v2` • GFR 2017 Rule Engine |
-| **Backend & Microservices** | `FastAPI` • `Uvicorn ASGI` • `ReportLab (Dossier Generator)` • `REST APIs` |
-| **Frontend & UI Portal** | `Next.js 14` • `React 18` • `TailwindCSS` • Government of India Theme |
-| **Security & Sovereignty** | `SHA-256 Anti-Tamper` • `Prompt Injection Quarantine` • `Offline Edge Mode` |
-| **Cloud & Deployment** | `Vercel` • `Render` • `Docker` • `GitHub Actions CI` |
-
-</div>
-
-<br/>
+- **AI & Document Extraction:** PyMuPDF, RapidOCR, spaCy NLP, python-docx, openpyxl
+- **Rules & Knowledge Graph:** Deterministic GFR 2017 Rule Engine, NetworkX Graph Engine
+- **Backend & APIs:** FastAPI, Uvicorn ASGI, ReportLab PDF Generator, REST APIs
+- **Frontend & UI:** Next.js 14, React 18, TailwindCSS
+- **Security & Sovereignty:** SHA-256 Anti-Tamper, Prompt Injection Sanitizer, Air-Gapped Mode
+- **Cloud & Deployment:** Docker, GitHub Actions CI, Vercel, Render
 
 ---
 
-### 👥 Team Hexagon
+### 👥 Team
 
-<div align="center">
-
-| Contributor | Role & Specialization | Profile |
-| :--- | :--- | :--- |
-| **Ankur Ray Choudhury** | Lead Systems Architect, Security, Full-Stack & API Gateway | [@archoudhury19](https://github.com/archoudhury19) |
-| **Team Hexagon** | Audit Orchestrator, Deterministic GFR Engine & Knowledge Graph | [@hexagon-afk](https://github.com/hexagon-afk) |
-
-</div>
-
-<br/>
-
----
-
-<div align="center">
-
-```
-"Transparent, deterministic, and sovereign technology for national digital public infrastructure."
-```
-
-**Smart India Hackathon 2026 • Ministry of Commerce & Industry • Team Hexagon (SIH26009)**
-
-</div>
+- **Lead Architect & Full-Stack:** [Ankur Ray Choudhury](https://github.com/archoudhury19)
+- **Team Hexagon:** [@hexagon-afk](https://github.com/hexagon-afk)
